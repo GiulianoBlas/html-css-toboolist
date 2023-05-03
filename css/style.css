@@ -5,3 +5,25 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER */
+header{
+    background-color: white;
+    width: 100%;
+}
+
+#header_logo{
+    width: 70px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+
+
+
+
