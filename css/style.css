@@ -66,13 +66,16 @@ main{
 }
 
 /* MAIN_LISTS */
-
-.list_margin{
-    margin-bottom: 50px;
-}
 #main_lists{
     background-color: white;
     padding: 50px;
+    margin-bottom: 30px;
+    border-radius:0 0 5px 5px;
+
+}
+
+.list_margin{
+    margin-bottom: 50px;
 }
 
 .check_list_slot{
@@ -90,9 +93,7 @@ main{
     vertical-align: middle;
 }
 
-h4{
-    display: inline-block;
-}
+
 
 .check_mark{
     color: green;
@@ -118,7 +119,9 @@ h4{
 
 .list_point{
     font-weight: 400;
+    display: inline-block;
 }
+
 
 .badge{ 
     color: white;
@@ -144,6 +147,13 @@ h4{
     background-color: orange;
 }
 
+.web{
+    background-color: rgb(226, 43, 122);
+}
+
+.sales{
+    background-color: rgb(121, 162, 58);
+}
 
 
     
