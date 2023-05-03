@@ -88,12 +88,16 @@ main{
     vertical-align: middle;
 }
 
+.list_point{
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* MAIN_ENTITIES */
 #list_arrow{
     font-size: 10px;
     vertical-align: middle;
 }
-
-
 
 .check_mark{
     color: green;
@@ -117,12 +121,7 @@ main{
     text-align: center;
 }
 
-.list_point{
-    font-weight: 400;
-    display: inline-block;
-}
-
-
+/* BADGE */
 .badge{ 
     color: white;
     font-size: smaller;
