@@ -44,6 +44,7 @@ main{
     padding-left: 50px;
     padding-bottom: 10px;
     border-radius: 5px 5px 0 0;
+    margin-bottom: 5px;
 }
 
 .default_button{
@@ -63,6 +64,53 @@ main{
     background-color: rgb(0, 136, 255);
     
 }
+
+/* MAIN_LISTS */
+#main_lists{
+    background-color: white;
+    padding: 50px;
+}
+
+.list_title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#list_arrow{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+h4{
+    display: inline-block;
+}
+
+.check_mark{
+    color: green;
+    border: solid 1px;
+    border-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.list_point{
+    font-weight: 400;
+}
+
+.badge{ 
+    color: white;
+    font-size: smaller;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+/* BADGE_TYPES */
+.editorial{
+    background-color:rgb(0, 136, 255);
+}
+
 
 
     
