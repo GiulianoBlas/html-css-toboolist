@@ -76,11 +76,21 @@ main{
 
 .list_margin{
     margin-bottom: 50px;
+    line-height: 27px;
+}
+
+.list_margin > span{
+    vertical-align: baseline;
+}
+
+.list_margin > h2{
+    vertical-align: baseline;
 }
 
 .check_list_slot{
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 30px;
 }
 
 .list_title{
@@ -105,8 +115,8 @@ main{
     border-color: green;
     border-radius: 50%;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
 }
 
@@ -116,8 +126,8 @@ main{
     border-color: red;
     border-radius: 50%;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
 }
 
